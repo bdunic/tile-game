@@ -14,6 +14,8 @@ var terrain = [
     [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, tree tall], [grass,tree tall], [grass] [grass]],
     [[grass], [grass, plain], [grass], [grass], [plain], [grass,tree tall], [grass] [grass] [grass, tree tall], [grass]],
     [[grass], [grass], [grass], [grass], [grass, plain, wood], [grass] [grass, tree short], [grass],[grass] [grass, tree short]],
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, tree tall], [grass,tree tall], [grass]],
+    [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, tree tall], [grass,tree tall], [grass] [grass]],
 ];
 var occupants = [
     [undefined, undefined, undefined, undefined],
