@@ -22,8 +22,8 @@ var key = document.getElementById('key');
 var plain = document.getElementById('plain');
 var grass = document.getElementById('grass');
 var wood = document.getElementById('wood');
-var tree tall = document.getElementById('tree tall');
-var tree short = document.getElementById('tree short');
+var treetall = document.getElementById('tree tall');
+var treeshort = document.getElementById('tree short');
 
 // Shadows
 
