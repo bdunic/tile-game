@@ -3,13 +3,17 @@
 
 // Initial map
 
-var row_count = 5;
-var column_count = 5;
+var row_count = 10;
+var column_count = 10;
 var terrain = [
-    [[grass], [grass], [grass], [grass], [grass]],
-    [[grass], [grass], [grass, wood, wood], [grass], [wood]],
-    [[grass], [grass, plain], [grass], [grass], [plain]],
-    [[grass], [grass], [grass], [grass], [grass, plain, wood]],
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, tree], [grass,tree], [grass]],
+    [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, tree], [grass,tree], [grass] [grass]],
+    [[grass], [grass, plain], [grass], [grass], [plain], [grass,tree], [grass] [grass] [grass, tree], [grass]],
+    [[grass], [grass], [grass], [grass], [grass, plain, wood], [grass] [grass, tree], [grass],[grass] [grass, tree]],
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, tree], [grass,tree], [grass]],
+    [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, tree], [grass,tree], [grass] [grass]],
+    [[grass], [grass, plain], [grass], [grass], [plain], [grass,tree], [grass] [grass] [grass, tree], [grass]],
+    [[grass], [grass], [grass], [grass], [grass, plain, wood], [grass] [grass, tree], [grass],[grass] [grass, tree]],
 ];
 var occupants = [
     [undefined, undefined, undefined, undefined],
