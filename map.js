@@ -3,7 +3,7 @@
 
 // Initial map
 
-var row_count = 4;
+var row_count = 5;
 var column_count = 4;
 var terrain = [
     [[grass], [grass], [grass], [grass], [grass]],
