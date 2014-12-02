@@ -6,16 +6,16 @@
 var row_count = 10;
 var column_count = 10;
 var terrain = [
-    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, tree tall], [grass,tree tall], [grass]],
-    [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, tree short], [grass,tree tall], [grass] [grass]],
-    [[grass], [grass, plain], [grass], [grass], [plain], [grass,tree tall], [grass] [grass] [grass, tree short], [grass]],
-    [[grass], [grass], [grass], [grass], [grass, plain, wood], [grass] [grass, tree short], [grass],[grass] [grass, tree tall]],
-    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, tree short], [grass,tree short], [grass]],
-    [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, tree tall], [grass,tree tall], [grass] [grass]],
-    [[grass], [grass, plain], [grass], [grass], [plain], [grass,tree tall], [grass] [grass] [grass, tree tall], [grass]],
-    [[grass], [grass], [grass], [grass], [grass, plain, wood], [grass] [grass, tree short], [grass],[grass] [grass, tree short]],
-    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, tree tall], [grass,tree tall], [grass]],
-    [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, tree tall], [grass,tree tall], [grass] [grass]],
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, treetall], [grass,treetall], [grass]],
+    [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, treeshort], [grass,treetall], [grass] [grass]],
+    [[grass], [grass, plain], [grass], [grass], [plain], [grass,treetall], [grass] [grass] [grass, treeshort], [grass]],
+    [[grass], [grass], [grass], [grass], [grass, plain, wood], [grass] [grass, treeshort], [grass],[grass] [grass, treetall]],
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, treeshort], [grass,treeshort], [grass]],
+    [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, treetall], [grass,treetall], [grass] [grass]],
+    [[grass], [grass, plain], [grass], [grass], [plain], [grass,treetall], [grass] [grass] [grass, treetall], [grass]],
+    [[grass], [grass], [grass], [grass], [grass, plain, wood], [grass] [grass, treeshort], [grass],[grass] [grass, treeshort]],
+    [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, treetall], [grass,treetall], [grass]],
+    [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, treetall], [grass,treetall], [grass] [grass]],
 ];
 var occupants = [
     [undefined, undefined, undefined, undefined],
