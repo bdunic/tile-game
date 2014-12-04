@@ -18,10 +18,10 @@ var terrain = [
     [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, treetall], [grass,treetall], [grass], [grass]],
 ];
 var occupants = [
-    [undefined, undefined, undefined, undefined],
-    [undefined, key, undefined, undefined],
-    [undefined, undefined, cat_girl, undefined],
-    [undefined, undefined, undefined, undefined],
+    [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [undefined, key, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
 ];
 var protagonist = {
     element: cat_girl,
