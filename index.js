@@ -33,3 +33,4 @@ occupants[protagonist.y][protagonist.x] = protagonist.element;
 render();
 }
 document.addEventListener('keydown', key_pressed_down);
+game.camera.focusOnXY("cat-girl".masterSprite.x + offsetX, "cat-girl".masterSprite.y + offsetY);
