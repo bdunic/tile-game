@@ -87,3 +87,13 @@ function is_terrain(x, y, z) {
     }
     return terrain_cell[z] !== undefined;
 }
+function no_tree(x, y, z) {
+if (z < 0) {
+return true;
+}
+var terrain_cell = get_terrain_cell(x, y);
+if (terrain_cell === undefined) {
+return false;
+}
+return terrain_cell[z] !== treeshort && terrain_cell[z] !== treetall;
+}
