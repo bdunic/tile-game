@@ -33,4 +33,7 @@ occupants[protagonist.y][protagonist.x] = protagonist.element;
 render();
 }
 document.addEventListener('keydown', key_pressed_down);
-game.camera.focusOnXY([protagonist.x], [protagonist.y]);
+
+  game.camera.bounds.height = 1536;
+	game.world.bounds.height = 1536;
+	console.log("cam", game.camera.bounds.width, game.camera.bounds.height, game.world);
