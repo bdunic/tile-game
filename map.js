@@ -51,8 +51,8 @@ var occupants = [
 ];
 var protagonist = {
     element: cat_girl,
-    x: 2,
-    y: 2,
+    x: 0,
+    y: 0,
 };
 
 // Map utilities
