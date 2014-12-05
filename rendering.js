@@ -102,4 +102,4 @@ function pan() {
     center_y = center_y + dy;
     render();
 }
-window.setInterval(pan, 35);
+window.setInterval(pan, 1);
