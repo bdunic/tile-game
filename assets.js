@@ -16,6 +16,9 @@ var cat_girl = document.getElementById('cat-girl');
 // Objects
 
 var key = document.getElementById('key');
+var blue = document.getElementById('gemblue');
+var green = document.getElementById('gemgreen');
+var orange = document.getElementById('gemorange')
 
 // Terrain
 
