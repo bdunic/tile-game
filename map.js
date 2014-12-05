@@ -6,14 +6,14 @@
 var row_count = 20;
 var column_count = 20;
 var terrain = [
-[[grass, wood, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass, wood, wood], [grass, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass, plain], [grass, wood], [grass], [plain], [grass, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass], [grass], [grass], [grass, plain, wood], [grass], [grass, wood, wood], [grass], [grass], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, wood, wood], [grass, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, treetall], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass, plain], [grass], [grass], [plain], [grass,treetall], [grass], [grass], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass], [grass], [grass], [grass, plain, wood], [grass], [grass, treeshort], [grass], [grass], [grass, treeshort], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[grass, wood, wood, wood], [plain], [plain], [plain], [plain], [plain], [plain], [grass, wood, wood], [grass, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[plain], [plain], [plain, wood, wood], [plain], [plain], [plain], [plain, wood, wood], [plain], [plain, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[plain], [plain], [plain, wood], [plain], [plain], [plain, wood, wood], [plain], [plain, wood, wood], [plain, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[plain], [plain], [plain], [plain], [plain, wood, wood], [plain], [plain, wood, wood], [plain], [plain, wood], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[plain], [plain], [plain], [plain], [plain], [plain], [plain], [plain, wood, wood], [plain, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[plain], [plain], [plain, wood, wood], [plain], [plain], [plain], [plain], [plain], [plain, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[plain], [plain], [plain], [plain], [plain], [plain], [plain], [plain], [plain, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[plain], [plain], [plain], [plain], [plain, wood, wood], [plain], [plain], [plain], [plain, wood, wood], [grass, treeshort], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
 [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
 [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
 [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
