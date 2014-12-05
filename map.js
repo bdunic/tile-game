@@ -6,11 +6,11 @@
 var row_count = 20;
 var column_count = 20;
 var terrain = [
-[[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, treetall], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, treeshort], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass, plain], [grass, wood], [grass], [plain], [grass,treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass], [grass], [grass], [grass, plain, wood], [grass], [grass, treeshort], [grass], [grass], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
-[[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, treeshort], [grass, treeshort], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[grass, wood, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass, wood wood], [grass, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[grass], [grass, plain], [grass, wood], [grass], [plain], [grass, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[grass], [grass], [grass], [grass], [grass, plain, wood], [grass], [grass, wood, wood], [grass], [grass], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
+[[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass, wood, wood], [grass, wood, wood], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
 [[grass], [grass], [grass, wood, wood], [grass], [wood], [grass], [grass, treetall], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
 [[grass], [grass, plain], [grass], [grass], [plain], [grass,treetall], [grass], [grass], [grass, treetall], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
 [[grass], [grass], [grass], [grass], [grass, plain, wood], [grass], [grass, treeshort], [grass], [grass], [grass, treeshort], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
@@ -28,9 +28,9 @@ var terrain = [
 [[grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass], [grass]],
 ];
 var occupants = [
+    [cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
-    [undefined, key, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
-    [undefined, undefined, cat_girl, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
+    [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
     [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined],
