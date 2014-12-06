@@ -103,4 +103,4 @@ function pan() {
     render();
 }
 window.setInterval(pan, 1);
-setSize(3,3)
+
