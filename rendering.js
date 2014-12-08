@@ -88,18 +88,21 @@ render();
 
 // Panning the camera
 
-var maximum_pan_rate = .5;
+var maximum_pan_rate = .75;
 function pan() {
     var dx = protagonist.x - center_x;
     var dy = protagonist.y - center_y;
+    var dz = protafonist.z - center_z;
     var linear_pan_rate = Math.sqrt(dx * dx + dy * dy);
     if (linear_pan_rate > maximum_pan_rate) {
         var pan_rate = maximum_pan_rate * (1 - Math.exp(-linear_pan_rate));
         dx = dx * pan_rate / linear_pan_rate;
         dy = dy * pan_rate / linear_pan_rate;
+        dz = dz * pan_rate / linear_pan_rate;
     }
     center_x = center_x + dx;
     center_y = center_y + dy;
+    center_z = center_z + dZ;
     render();
 }
 window.setInterval(pan, 1);
