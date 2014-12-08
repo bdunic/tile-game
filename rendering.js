@@ -102,7 +102,7 @@ function pan() {
     }
     center_x = center_x + dx;
     center_y = center_y + dy;
-    center_z = center_z + dZ;
+    center_z = center_z + dz;
     render();
 }
 window.setInterval(pan, 1);
