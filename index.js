@@ -11,6 +11,18 @@ var i = 0;
 function score(x,y) {
 if ((y === gem.y&&x===gem.x)||(y===gem1.y&&x===gem1.x)||(y===gem2.y&&x===gem2.x)){
 i += 1;
+if (y === gem.y&&x===gem.x){
+  gem.y=20;
+  gem.x=20
+}
+if(y === gem1.y&&x===gem1.x){
+  gem1.y=20;
+  gem1.x=20;
+}
+if(y === gem2.y&&x===gem2.x){
+  gem2.y=20;
+  gem2.x=20;
+}
 document.getElementById("Bell").play();
 }
 document.getElementById("score").innerHTML= 'Score: '+i;
