@@ -92,7 +92,7 @@ var maximum_pan_rate = .75;
 function pan() {
     var dx = protagonist.x - center_x;
     var dy = protagonist.y - center_y;
-    var dz = protagonist.z - center_z;
+    var dz = protagonist.z
     var linear_pan_rate = Math.sqrt(dx * dx + dy * dy);
     if (linear_pan_rate > maximum_pan_rate) {
         var pan_rate = maximum_pan_rate * (1 - Math.exp(-linear_pan_rate));
