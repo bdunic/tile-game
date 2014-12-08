@@ -54,7 +54,21 @@ var protagonist = {
     x: 1,
     y: 1,
 };
-
+var gem = {
+element: blue,
+x: 3,
+y: 10,
+};
+var gem1 = {
+element: blue,
+x: 20,
+y: 6,
+};
+var gem2 = {
+element: blue,
+x: 0,
+y: 7,
+};
 // Map utilities
 
 function get_terrain_cell(x, y) {
